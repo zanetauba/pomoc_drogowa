@@ -1,24 +1,118 @@
----
-title: Le Wagon - Middleman - About
----
-
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 icons-about">
+       <%= image_tag "settings.png", height: 100 %>
+       <h2>Profesjonalizm</h2>
+       <p>Świadczymy profesjonalne usługi pomocy drogowej dla aut osobowych 24/7!</p>
+    </div>
+    <div class="col-md-4 icons-about">
+       <%= image_tag "like.png", height: 100 %>
+       <h2>Zadowoleni klienci</h2>
+       <p>O jakości naszych usług świadczy masa zadowolonych klientów!</p>
+    </div>
+    <div class="col-md-4 icons-about">
+       <%= image_tag "credit-card.png", height: 100 %>
+       <h2>Cena</h2>
+       <p>Cena dobierana indywidualnie na korzyść klienta!</p>
+    </div>
   </div>
 </div>
+
+<div class="o-firmie">
+  <h2>O Nas:</h2>
+  <p>
+    Pomoc drogowa Suchedniów, Skarżysko - profesjonalna auto pomoc 24h, holowanie 24h
+
+Auto Pomoc Falko to firma wchodząca na rynek, świadczy profesjonalne usługi pomocy drogowej dla aut osobowych na terenie całego kraju 24h na dobę przez 365 dni w roku. Nasze usługi cechuje elastyczność i kreatywność w podejściu do indywidualnych przypadków. Wykonuje je z zachowaniem wszystkich zasad bezpieczeństwa oraz z myślą o zadowolonym kliencie. Tel 795 415 047
+
+Auto pomoc drogowa - Suchedniów, Skarżysko i cały kraj - pomoc drogowa 24h
+  </p>
+</div>
+
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+<div id="content-slider">
+  <div class="wrap-slider">
+
+
+    <!-- ===== Thumbnail ControlNav ======= -->
+    <input type="radio" id="a-1" name="a" >
+    <input type="radio" id="a-2" name="a" >
+    <input type="radio" id="a-3" name="a" >
+    <input type="radio" id="a-4" name="a" >
+
+    <nav id="main">
+      <label for="a-1" class="first"></label>
+      <label for="a-2" class="first"></label>
+      <label for="a-3" class="first"></label>
+      <label for="a-4" class="first"></label>
+    </nav>
+
+    <!-- =================================== -->
+    <nav id="control">
+      <label for="a-1"></label>
+      <label for="a-2"></label>
+      <label for="a-3"></label>
+      <label for="a-4"></label>
+    </nav>
+    <!-- =================================== -->
+
+    <!--  IMAGE NAVIGATION pic -->
+
+    <!-- ===== IMages ======= -->
+
+    <div class="slider">
+      <div class="inset">
+
+        <figure>
+          <figcaption class="title-1">
+            <h1>PAK FA T-50</h1>
+            <p>Stealth multirole fighter</p>
+            <a href="">read more...</a>
+          </figcaption>
+          <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-1" class="f">
+        </figure>
+
+        <figure>
+          <figcaption class="title-2">
+            <h1>Kamov Ka-50 "Black Shark"</h1>
+            <p>Attack helicopter</p>
+            <a href="">read more...</a>
+          </figcaption>
+          <img src="https://github.com/lime7/slider/blob/master/images/10.png?raw=true" alt="" id="i-2" class="f">
+        </figure>
+
+        <figure>
+          <figcaption class="title-3">
+            <h1>Sukhoi Su-27</h1>
+            <p>Air superiority fighter</p>
+            <a href="">read more...</a>
+          </figcaption>
+          <img src="https://github.com/lime7/slider/blob/master/images/3.png?raw=true" alt="" id="i-3" class="f">
+        </figure>
+
+        <figure>
+          <figcaption class="title-4">
+            <h1>mil mi-28</h1>
+            <p>Attack helicopter</p>
+            <a href="">FIND OUT MORE</a>
+          </figcaption>
+          <img src="https://github.com/lime7/slider/blob/master/images/4.png?raw=true" alt="" id="i-4" class="f">
+        </figure>
+
+
+        <figure>
+          <figcaption class="title-5">
+            <h1>PAK FA T-50</h1>
+            <p>Stealth multirole fighter</p>
+            <a href="">read more...</a>
+          </figcaption>
+          <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-5" class="f">
+        </figure>
+      </div>
+    </div>
+
+  </div>
