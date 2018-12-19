@@ -1,17 +1,18 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+
+
+.phone {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+}
+
+.home-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.laweta {
+  text-align: center;
 }
