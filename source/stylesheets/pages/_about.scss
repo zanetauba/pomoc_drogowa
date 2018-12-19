@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 3vh 0vw;
+  padding: 3vh 3vw;
 }
 
 .icons-wrap {
@@ -12,4 +14,12 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
+}
+
+.icons-about {
+  border: 1px solid #00C5BB;
+  background-color: white;
+  margin: 3vh 3vw;
+  padding: 3vh 3vw;
+  border-radius: 5px;
 }

@@ -1,0 +1,32 @@
+.contact-me {
+display: flex;
+  flex-direction: column;
+
+}
+
+.email {
+  width: 40vw;
+  height: 9vh;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  margin-bottom: 3vh;
+}
+
+.message {
+  width: 40vw;
+  height: 40vh;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
+}
+
+.send {
+   margin-bottom: 3vh;
+  margin-left: 3vw;
+  width: 10vw;
+
+}
+
+.contact {
+  background-color: dark-grey;
+  width: 50vw;
+}
